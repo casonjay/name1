@@ -40,3 +40,18 @@ response = requests.get("https://api.example.com/data")
 data = response.json()
 print(data)
 
+# Bedingte Anweisungen
+if age < 18:
+    print("Du bist minderjährig.")
+elif age >= 18 and age < 65:
+    print("Du bist erwachsen.")
+else:
+    print("Du bist im Rentenalter.")
+
+# Schleifen
+for i in range(1, 6):
+    print(i)
+
+while weight > 60:
+    weight -= 1
+    print("Gewicht reduziert sich um 1 kg.")
