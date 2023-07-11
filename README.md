@@ -34,3 +34,9 @@ Du kannst auch Links einfügen, zum Beispiel zu einer Webseite: [OpenAI](https:/
 
 Du kannst Codeblöcke erstellen, indem du den Code eingerückt schreibst oder indem du drei Backticks vor und nach dem Code verwendest:
 
+mport requests
+
+response = requests.get("https://api.example.com/data")
+data = response.json()
+print(data)
+
