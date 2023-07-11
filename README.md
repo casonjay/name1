@@ -30,28 +30,68 @@ Du kannst Text *kursiv* oder **fett** formatieren.
 
 Du kannst auch Links einfügen, zum Beispiel zu einer Webseite: [OpenAI](https://openai.com/)
 
+
+
+
+
+
+
+
+
+# Mein langes Markdown-Dokument
+
+## Einleitung
+
+Willkommen zu meinem Markdown-Dokument! In diesem Dokument möchte ich verschiedene Funktionen von Markdown vorstellen und zeigen, wie man Text strukturieren und formatieren kann.
+
+## Textformatierung
+
+Markdown bietet verschiedene Möglichkeiten zur Textformatierung. Hier sind einige Beispiele:
+
+- *Kursiv*: Verwende ein einzelnes Sternchen (*) oder einen Unterstrich (_) vor und nach dem Text.
+- **Fett**: Verwende zwei Sternchen (**) oder Unterstriche (__) vor und nach dem Text.
+- ~~Durchgestrichen~~: Verwende zwei Tilden (~~) vor und nach dem Text.
+- `Code`: Verwende Backticks (`) um den Code innerhalb eines Satzes hervorzuheben.
+
+## Überschriften
+
+Du kannst Überschriften in verschiedenen Ebenen erstellen. Hier sind einige Beispiele:
+
+### Überschrift der dritten Ebene
+
+#### Überschrift der vierten Ebene
+
+## Aufzählungen und Nummerierungen
+
+Du kannst Aufzählungslisten und nummerierte Listen erstellen:
+
+- Erster Punkt
+- Zweiter Punkt
+- Dritter Punkt
+
+1. Erster Punkt
+2. Zweiter Punkt
+3. Dritter Punkt
+
+## Links und Bilder
+
+Du kannst Links und Bilder einfügen:
+
+- [Besuche OpenAI](https://openai.com/) - Ein Beispiel für einen Link.
+- ![Markdown-Logo](https://markdown-here.com/img/icon256.png) - Ein Beispiel für ein Bild.
+
+## Zitate
+
+Du kannst Zitate verwenden, indem du den Text mit einem Größer-als-Zeichen (>) einrückst:
+
+> Das Leben ist wie ein Fahrrad. Um das Gleichgewicht zu halten, musst du in Bewegung bleiben. - Albert Einstein
+
 ## Codeblöcke
 
-Du kannst Codeblöcke erstellen, indem du den Code eingerückt schreibst oder indem du drei Backticks vor und nach dem Code verwendest:
+Du kannst Codeblöcke mit Syntaxhighlighting erstellen, indem du drei Backticks (`) vor und nach dem Code verwendest und die Sprache angeben:
 
-mport requests
+```python
+def say_hello(name):
+    print(f"Hallo, {name}!")
 
-response = requests.get("https://api.example.com/data")
-data = response.json()
-print(data)
-
-# Bedingte Anweisungen
-if age < 18:
-    print("Du bist minderjährig.")
-elif age >= 18 and age < 65:
-    print("Du bist erwachsen.")
-else:
-    print("Du bist im Rentenalter.")
-
-# Schleifen
-for i in range(1, 6):
-    print(i)
-
-while weight > 60:
-    weight -= 1
-    print("Gewicht reduziert sich um 1 kg.")
+say_hello("Welt")
