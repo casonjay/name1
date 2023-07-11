@@ -55,3 +55,27 @@ def say_hello(name):
     print(f"Hallo, {name}!")
 
 say_hello("Welt")
+```
+
+## Tabellen
+
+Du kannst Tabellen erstellen, indem du die Tabelle mit senkrechten Strichen (|) und Bindestrichen (-) formatierst:
+
+| Name  | Alter | Land     |
+|-------|-------|----------|
+| Alice | 25    | Deutschland |
+| Bob   | 30    | USA      |
+| Carol | 35    | Kanada   |
+
+## Mathematische Formeln
+
+Markdown unterstützt mathematische Formeln mit LaTeX-Syntax. Hier sind einige Beispiele:
+
+- Quadratwurzel: `$\sqrt{x}$`
+- Summe: `$\sum_{i=1}^{n} x_i$`
+- Bruch: `$\frac{a}{b}$`
+- Exponent: `$a^b$`
+
+Du kannst auch komplexe mathematische Ausdrücke und Gleichungen erstellen.
+
+
