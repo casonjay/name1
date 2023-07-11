@@ -8,10 +8,10 @@ Willkommen zu meinem Markdown-Dokument! In diesem Dokument möchte ich verschied
 
 Markdown bietet verschiedene Möglichkeiten zur Textformatierung. Hier sind einige Beispiele:
 
-- *Kursiv*: Verwende ein einzelnes Sternchen (*) oder einen Unterstrich (_) vor und nach dem Text.
-- **Fett**: Verwende zwei Sternchen (**) oder Unterstriche (__) vor und nach dem Text.
-- ~~Durchgestrichen~~: Verwende zwei Tilden (~~) vor und nach dem Text.
-- `Code`: Verwende Backticks (`) um den Code innerhalb eines Satzes hervorzuheben.
+- *Kursiv*: Verwende ein einzelnes Sternchen (`*`) oder einen Unterstrich (`_`) vor und nach dem Text.
+- **Fett**: Verwende zwei Sternchen (`**`) oder Unterstriche (`__`) vor und nach dem Text.
+- ~~Durchgestrichen~~: Verwende zwei Tilden (`~~`) vor und nach dem Text.
+- `Code`: Verwende Backticks (\`) um den Code innerhalb eines Satzes hervorzuheben.
 
 ## Überschriften
 
@@ -42,13 +42,13 @@ Du kannst Links und Bilder einfügen:
 
 ## Zitate
 
-Du kannst Zitate verwenden, indem du den Text mit einem Größer-als-Zeichen (>) einrückst:
+Du kannst Zitate verwenden, indem du den Text mit einem Größer-als-Zeichen (`>`) einrückst:
 
 > Das Leben ist wie ein Fahrrad. Um das Gleichgewicht zu halten, musst du in Bewegung bleiben. - Albert Einstein
 
 ## Codeblöcke
 
-Du kannst Codeblöcke mit Syntaxhighlighting erstellen, indem du drei Backticks (`) vor und nach dem Code verwendest und die Sprache angeben:
+Du kannst Codeblöcke mit Syntaxhighlighting erstellen, indem du drei Backticks (\`\`\`) vor und nach dem Code verwendest und die Sprache angeben:
 
 ```python
 def say_hello(name):
